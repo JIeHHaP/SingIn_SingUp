@@ -1,0 +1,2 @@
+rootProject.name = "Pseudo-singIn_singUp"
+include ':app'
