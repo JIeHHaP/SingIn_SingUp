@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Pseudo-singIn_singUp</string>
+    <string name="SignUp">Регистрация</string>
+    <string name="SignIn">Регистрация</string>
+    <string name="Second_name">Иванов</string>
+    <string name="Name">Иван</string>
+    <string name="Patronymic">Иванович</string>
+    <string name="Phone_numb">+79998887766</string>
+    <string name="Email">name@host.com</string>
+    <string name="Pass">*******</string>
+    <string name="Exit">Выйти</string>
+    <string name="Ava">Аватар</string>
+
 </resources>
