@@ -1,14 +1,15 @@
 <resources>
     <string name="app_name">Pseudo-singIn_singUp</string>
     <string name="SignUp">Регистрация</string>
-    <string name="SignIn">Регистрация</string>
-    <string name="Second_name">Иванов</string>
-    <string name="Name">Иван</string>
-    <string name="Patronymic">Иванович</string>
-    <string name="Phone_numb">+79998887766</string>
-    <string name="Email">name@host.com</string>
-    <string name="Pass">*******</string>
-    <string name="Exit">Выйти</string>
+    <string name="SignIn">Вход</string>
+    <string name="Surname">Фамилия</string>
+    <string name="Name">Имя</string>
+    <string name="Patronymic">Отчество</string>
+    <string name="Phone_numb">Телефон</string>
+    <string name="Email">Email</string>
+    <string name="Pass">Пароль</string>
+    <string name="Exit">Зарегистрироваться</string>
     <string name="Ava">Аватар</string>
+    <string name="Error">Неверные email и/или пароль</string>
 
 </resources>

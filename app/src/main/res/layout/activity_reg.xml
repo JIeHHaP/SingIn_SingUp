@@ -4,23 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Reg_activity">
+    tools:context=".RegActivity">
 
     <EditText
-        android:id="@+id/etSecond_name"
+        android:id="@+id/etSurname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:autofillHints="@string/Second_name"
+        android:autofillHints="@string/Surname"
         android:ems="10"
         android:gravity="center"
-        android:hint="@string/Second_name"
+        android:hint="@string/Surname"
         android:inputType="textPersonName"
         android:text=""
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_ava"
         tools:visibility="visible" />
 
     <EditText
@@ -35,9 +35,9 @@
         android:inputType="textPersonName"
         android:text=""
         android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="@+id/etSecond_name"
-        app:layout_constraintStart_toStartOf="@+id/etSecond_name"
-        app:layout_constraintTop_toBottomOf="@+id/etSecond_name"
+        app:layout_constraintEnd_toEndOf="@+id/etSurname"
+        app:layout_constraintStart_toStartOf="@+id/etSurname"
+        app:layout_constraintTop_toBottomOf="@+id/etSurname"
         tools:visibility="visible" />
 
     <EditText
@@ -104,19 +104,20 @@
         android:id="@+id/button"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="@string/Exit"
         app:layout_constraintEnd_toEndOf="@+id/etPassword"
         app:layout_constraintStart_toStartOf="@+id/etPassword"
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:id="@+id/ivAvatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
         android:contentDescription="@string/Ava"
         android:isScrollContainer="false"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,15 +125,15 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:id="@+id/bnt_ava"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Button"
+        android:layout_marginTop="24dp"
+        android:text="@string/Ava"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="@+id/etEmail"
         app:layout_constraintStart_toStartOf="@+id/etEmail"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/ivAvatar" />
 
 
 </android.support.constraint.ConstraintLayout>
